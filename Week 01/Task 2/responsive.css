@@ -1,0 +1,441 @@
+@media (max-width:1000px){
+    .max-width{
+	max-width: 100%;
+	margin:auto;
+}
+	.home .home-content a{
+		font-size: 20px;
+		padding:0px 10px;
+	}
+	.max-width{
+		padding: 0 30px;
+	}
+	.menu-btn{
+		color: black;
+		display: block;
+		z-index: 0;
+	}
+	.navbar .menu{
+        text-align:center;
+		position: fixed;
+		height:100%;
+		width: 100%;
+		left:-100%;
+		top: 0;
+        color: black;
+		background-color: white;
+        font-weight: 600;
+		text-align: center;
+		padding-top: 50px;
+		transition: all 0.4s ease;
+	}
+	.navbar .menu.active{
+		left: 0;
+	}
+	.navbar .menu li{
+		display: block;
+	}
+	.navbar .menu li a{
+		display: inline-block;
+		margin: 20px 0px;
+		font-size: 22px;
+	}
+    .title .title-box1{
+        float: center;
+        display: flex;
+        box-sizing: content-box;
+        background: rgb(0, 0, 0); /* Fallback color */
+        background: rgba(0, 0, 0, 0.6); /* Black background with 0.5 opacity */
+        width: 300px;
+        height: 200px;
+        margin: 30px 130px 15px 20px;
+    }
+    .title .title-content h2{
+        margin-top:10px;
+        font-weight:600;
+        padding: 15px 15px;
+        color: white;
+        font-size: 18px;
+    }
+    .title .title-content p{
+        padding:5px 5px 15px 20px;
+        color: white;
+        font-size: 10px;
+    }
+    .title .title-content button{
+        background-color: #007bff;
+        border-radius: 20px;
+        padding: 0px 15px 0px 15px;
+        margin: 0px 20px 0px 20px;
+        border-color:  #007bff;
+    
+    }
+    .title .title-content a{
+        display: inline-block;
+        color: #fff;
+        font-size: 10px;
+        font-weight: 100;
+        padding: 10px 10px;
+        transition: all 0.3s ease;
+    }
+    .packages .pack-content .card{
+        display: inline-block;
+        width: calc(25% - 30px);
+        background-color: white;
+        text-align: left;
+        border-radius:6px;
+        padding: 20px 20px 15px 20px;
+        margin: 10px;
+        cursor: pointer;
+        transition: all 0.3 ease;
+        margin-top: 50px;
+        border-color:#E3E8E8;
+        border-style: solid;
+        font-family: 'Ubuntu',sans-serif;
+    }
+    .packages .pack-content .card .box img{
+        width: 165px;
+        align-items: center;
+        margin-top:-20px;
+    }
+    .Clients .clients-content .card{
+        align-items: center;
+        display: inline-block;
+        width: calc(50% - 30px);
+        background-color: white;
+        text-align: center;
+        border-radius:6px;
+        padding: 20px 20px 15px 20px;
+        margin: 10px;
+        font-size: 20px;
+        cursor: pointer;
+        transition: all 0.3 ease;
+        margin-top: 50px;
+        border-top:#0886FC;
+        border-left:white;
+        border-right:white;
+        border-bottom:white;
+        border-style: solid;
+        font-family: 'Ubuntu',sans-serif;
+    }
+    
+}
+@media (max-width:700px){
+    .packages .pack-content .card{
+        display: inline-block;
+        width: calc(45% - 10px);
+        background-color: white;
+        text-align: left;
+        border-radius:6px;
+        padding: 20px 20px 15px 20px;
+        margin: 10px;
+        cursor: pointer;
+        transition: all 0.3 ease;
+        margin-top: 50px;
+        border-color:#E3E8E8;
+        border-style: solid;
+        font-family: 'Ubuntu',sans-serif;
+    }
+    .packages .pack-content .card .box img{
+        width: 230px;
+        align-items: center;
+        margin-top:-20px;
+    }
+    .packages .pack-content .card .box, .Clients .clients-content .card{
+        font-size: 14px;
+    }
+    .packages .pack-content .card:hover{
+        background-color: #0886FC;
+    }
+    .Services h2, .packages h2{
+        font-family: 'Ubuntu',sans-serif;
+        margin-top: 25px;
+        color: grey;
+        font-weight: 400;
+        font-size: 15px;
+        text-align: center;
+    }
+    .Services h1, .packages h1, .Clients h1{
+        margin-top: 15px;
+        font-family: 'Ubuntu',sans-serif;
+        font-weight: 400;
+        text-align: center;
+        font-size: 30px;
+    }
+    .Services h1 span, .packages h1 span, .Clients h1 span{
+        color:black;
+        text-align: center;
+    }
+    .Services{
+        width: 100%;
+        text-align: center;
+        color: black;
+        background-color: white;
+        
+    }
+    .Services .servcontent .card{
+        display: inline-block;
+        width: calc(50% - 40px);
+        background-color: white;
+        text-align: center;
+        border-radius:6px;
+        padding: 20px 20px 15px 20px;
+        margin: 10px;
+        cursor: pointer;
+        transition: all 0.3 ease;
+        margin-top: 50px;
+        border-color:#E3E8E8;
+        border-style: solid;
+    }
+    .Clients .clients-content .card{
+        align-items: center;
+        display: inline-block;
+        width: calc(100% - 30px);
+        background-color: white;
+        text-align: center;
+        border-radius:6px;
+        padding: 20px 20px 15px 20px;
+        margin: 10px;
+        font-size: 20px;
+        cursor: pointer;
+        transition: all 0.3 ease;
+        margin-top: 50px;
+        border-top:#0886FC;
+        border-left:white;
+        border-right:white;
+        border-bottom:white;
+        border-style: solid;
+        font-family: 'Ubuntu',sans-serif;
+    }
+}
+@media (max-width: 950px){
+    .packages .pack-content .card{
+        display: inline-block;
+        width: calc(50% - 30px);
+        background-color: white;
+        font-size: 20px;
+        text-align: center;
+        border-radius:6px;
+        padding: 20px 20px 15px 20px;
+        margin: 10px;
+        cursor: pointer;
+        transition: all 0.3 ease;
+        margin-top: 50px;
+        border-color:#E3E8E8;
+        border-style: solid;
+        font-family: 'Ubuntu',sans-serif;
+        border-color: grey;
+    }
+    .packages .pack-content .card .box img{
+        width: 300px;
+        align-items: center;
+        margin-top:-20px;
+    }
+    .Clients .clients-content .card{
+        align-items: center;
+        display: inline-block;
+        width: calc(50% - 30px);
+        background-color: white;
+        text-align: center;
+        border-radius:6px;
+        padding: 20px 20px 15px 20px;
+        margin: 10px;
+        font-size: 20px;
+        cursor: pointer;
+        transition: all 0.3 ease;
+        margin-top: 50px;
+        border-top:#0886FC;
+        border-left:white;
+        border-right:white;
+        border-bottom:white;
+        border-style: solid;
+        font-family: 'Ubuntu',sans-serif;
+    }
+    .Services .servcontent .card{
+        display: inline-block;
+        width: calc(50% - 30px);
+        background-color: white;
+        text-align: center;
+        border-radius:6px;
+        font-size: 17px;
+        padding: 20px 20px 15px 20px;
+        margin: 10px;
+        cursor: pointer;
+        transition: all 0.3 ease;
+        margin-top: 50px;
+        border-color:#E3E8E8;
+        border-style: solid;
+    }
+    .Services .servcontent .text{
+        font-size: 22px;
+    }
+    .Services h4{
+        font-size: 16px;
+    }
+    .title .title-box1{
+        float: center;
+        display: flex;
+        box-sizing: content-box;
+        background: rgb(0, 0, 0); /* Fallback color */
+        background: rgba(0, 0, 0, 0.6); /* Black background with 0.5 opacity */
+        width: 400px;
+        height: 200px;
+        margin: 30px 130px 15px 20px;
+    }
+    .title .title-content h2{
+        margin-top:10px;
+        font-weight:600;
+        padding: 15px 15px;
+        color: white;
+        font-size: 23px;
+    }
+    .title .title-content p{
+        padding:0px 5px 1px 20px;
+        color: white;
+        font-size: 15px;
+    }
+    .title .title-content button{
+        background-color: #007bff;
+        border-radius: 20px;
+        padding: 0px 15px 0px 15px;
+        margin: 0px 20px 0px 20px;
+        border-color:  #007bff;
+    
+    }
+}
+@media (max-width:450px){
+    .Services h1, .packages h1, .Clients h1{
+        margin-top: 15px;
+        font-family: 'Ubuntu',sans-serif;
+        font-weight: 400;
+        text-align: center;
+        font-size: 24px;
+    }
+    .packages{
+        background-color: #EBF2FF;
+        align-items: center;
+    }
+    .packages .pack-content .card{
+        display: inline-block;
+        width: calc(100%);
+        background-color: white;
+        text-align: center;
+        border-radius:6px;
+        padding: 20px 20px 15px 20px;
+        margin: 10px;
+        cursor: pointer;
+        transition: all 0.3 ease;
+        margin-top: 50px;
+        border-color:#E3E8E8;
+        border-style: solid;
+        font-family: 'Ubuntu',sans-serif;
+    }
+    .packages .pack-content .card .box img{
+        width: 280px;
+        align-items: center;
+        margin-top:-20px;
+    }
+    .packages .pack-content .card .box, .Clients .clients-content .card{
+        font-size: 14px;
+    }
+    .packages .pack-content .card:hover{
+        background-color: #0886FC;
+    }
+    .Services h2, .packages h2{
+        font-family: 'Ubuntu',sans-serif;
+        margin-top: 25px;
+        color: grey;
+        font-weight: 400;
+        font-size: 15px;
+        text-align: center;
+    }
+    .Services h1 span, .packages h1 span, .Clients h1 span{
+        color:black;
+        text-align: center;
+    }
+    .Services{
+        width: 100%;
+        text-align: center;
+        color: black;
+        background-color: white;
+        
+    }
+    .Services .servcontent .card{
+        display: inline-block;
+        width: calc(100%);
+        background-color: white;
+        text-align: center;
+        border-radius:6px;
+        padding: 20px 20px 15px 20px;
+        margin: 10px;
+        cursor: pointer;
+        transition: all 0.3 ease;
+        margin-top: 50px;
+        border-color:#E3E8E8;
+        border-style: solid;
+    }
+    .Clients .clients-content .card{
+        align-items: center;
+        display: inline-block;
+        width: calc(100% );
+        background-color: white;
+        text-align: center;
+        border-radius:6px;
+        padding: 20px 20px 15px 20px;
+        margin: 10px;
+        font-size: 20px;
+        cursor: pointer;
+        transition: all 0.3 ease;
+        margin-top: 50px;
+        border-top:#0886FC;
+        border-left:white;
+        border-right:white;
+        border-bottom:white;
+        border-style: solid;
+        font-family: 'Ubuntu',sans-serif;
+    }
+    .title .title-box1{
+        align-items:center;
+        display: flex;
+        box-sizing: content-box;
+        background: rgb(0, 0, 0); /* Fallback color */
+        background: rgba(0, 0, 0, 0.6); /* Black background with 0.5 opacity */
+        width: 300px;
+        height: 200px;
+        margin: 30px 0px 15px 20px;
+    }
+    .title .title-content h2{
+        margin-top:10px;
+        font-weight:600;
+        padding: 15px 15px;
+        color: white;
+        font-size: 23px;
+    }
+    .title .title-content p{
+        padding:5px 5px 0px 20px;
+        color: white;
+        font-size: 13px;
+    }
+    .title .title-content button{
+        background-color: #007bff;
+        border-radius: 20px;
+        padding: 0px 15px 0px 15px;
+        margin: 0px 20px 0px 20px;
+        border-color:  #007bff;
+    
+    }
+    .navbar .logo{
+        padding: 0px 60px 18px 0px;
+        color:black;
+        font-size: 18px;
+        font-weight: 600;
+    } 
+}
+@media (max-width:767px){
+	#footer h5 {
+    padding-left: 0;
+    border-left: transparent;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+}
+}
