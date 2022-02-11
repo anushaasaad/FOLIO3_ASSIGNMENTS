@@ -3,8 +3,8 @@ My name is Anusha and I am a junior year student at Fast National University. I 
 
 In the following HTML/CSS work I have submitted one of my favorite designs that I designed and coded. 
 My design was inspired by someone's website I saw on YouTube.
-![Screenshot (196)](https://github.com/anushaasaad/FOLIO3_ASSIGNMENTS/blob/main/TASK%202/Images/1.PNG)
-![Screenshot (196)](https://github.com/anushaasaad/FOLIO3_ASSIGNMENTS/blob/main/TASK%202/Images/2.PNG)
-![Screenshot (196)](https://github.com/anushaasaad/FOLIO3_ASSIGNMENTS/blob/main/TASK%202/Images/3.PNG)
+![Screenshot (196)](https://github.com/anushaasaad/FOLIO3_ASSIGNMENTS/blob/main/Week%2001/Task%202/1.PNG)
+![Screenshot (196)](https://github.com/anushaasaad/FOLIO3_ASSIGNMENTS/blob/main/Week%2001/Task%202/2.PNG)
+![Screenshot (196)](https://github.com/anushaasaad/FOLIO3_ASSIGNMENTS/blob/main/Week%2001/Task%202/3.PNG)
 
 ### Week 01: <a href="https://github.com/anushaasaad/FOLIO3_ASSIGNMENTS/tree/main/Week%2001"/>README</a>
