@@ -8,3 +8,5 @@ My design was inspired by someone's website I saw on YouTube.
 ![Screenshot (196)](https://github.com/anushaasaad/FOLIO3_ASSIGNMENTS/blob/main/Week%2001/Task%202/3.PNG)
 
 ### Week 01: <a href="https://github.com/anushaasaad/FOLIO3_ASSIGNMENTS/tree/main/Week%2001"/>README</a>
+
+### Week 02: <a href="https://github.com/anushaasaad/FOLIO3_ASSIGNMENTS/tree/main/Week%2002"/>README</a>
