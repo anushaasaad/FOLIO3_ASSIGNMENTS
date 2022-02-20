@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>To do list</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+    <div class="container">
+    <div class="header">
+        <h2 class="heading">My To Do List</h2>
+        <input type="text" id="myInput" placeholder="Add more items">
+        <span onclick="newElement()" class="addBtn">Enter</span>
+    </div>
+      <ul id="item" class="items">
+        <li>Artificial Intelligence Assignment</li>
+        <li>register for hackathon</li>
+        <li>Get your TA offer letter from one stop</li>
+        <li>Check you linkedin</li>
+      </ul>
+      <div class="remove">
+      <input type="button" value="Remove All" onclick="removeAll()">
+     </div>
+    </div>
+<script>
+    var myNodelist = document.getElementsByTagName("LI");
+    var i;
+    for (i = 0; i < myNodelist.length; i++) {
+      var span = document.createElement("SPAN");
+      var txt = document.createTextNode("\u00D7");
+      span.className = "next";
+      span.appendChild(txt);
+      myNodelist[i].appendChild(span);
+    }
+    
+    var next = document.getElementsByClassName("next");
+    var i;
+    for (i = 0; i < next.length; i++) {
+      next[i].onclick = function() {
+        var div = this.parentElement;
+        div.style.display = "none";
+      }
+    }
+    function newElement() {
+      var li = document.createElement("li");
+      var inputValue = document.getElementById("myInput").value;
+      var t = document.createTextNode(inputValue);
+      li.appendChild(t);
+      if (inputValue === '') {
+        alert("enter valid value");
+      } else {
+        document.getElementById("item").appendChild(li);
+      }
+      document.getElementById("myInput").value = "";
+    
+      var span = document.createElement("SPAN");
+      var txt = document.createTextNode("\u00D7");
+      span.className = "next";
+      span.appendChild(txt);
+      li.appendChild(span);
+    
+      for (i = 0; i < next.length; i++) {
+        next[i].onclick = function() {
+          var div = this.parentElement;
+          div.style.display = "none";
+        }
+      }
+    }
+    function removeAll(){
+    if(removeAll){
+        alert('Are you sure you want to delete all items');
+    }
+    document.getElementById("item").innerHTML = "";
+}
+    </script>
+</body>
+</html>
