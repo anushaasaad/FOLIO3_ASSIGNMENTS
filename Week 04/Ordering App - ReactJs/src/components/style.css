@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@200;300;500;600&family=Ubuntu:ital,wght@0,300;0,400;1,400&display=swap');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+.max-width{
+	max-width: 1300vh;
+	margin:auto;
+}
+.navbar{
+    background-color: rgb(156, 0, 0);
+    color : rgb(255, 253, 253);
+    height: 11%;
+    vertical-align: middle;
+	position: fixed;
+	width: 100%;
+	z-index: 999;
+	/*background:crimson;*/
+	font-family: 'Ubuntu',sans-serif;
+	padding: 10px 0px;
+	transition: 0.5s;
+}
+.navbar .max-width{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.navbar .logo{
+    margin-left: 15%;
+	color:rgb(255, 245, 245);
+    font-size: 38px;
+	font-weight: 700;
+} 
+.navbar .menu li{
+	display: inline-block;
+	list-style: none;
+    background-color: rgb(80, 17, 17);
+    padding:17px 80px;
+    border-radius: 50px;
+}
+.navbar .menu li span{
+    background-color: rgb(156, 0, 0);
+    width:10px;
+    padding:8px 10px;
+    margin-left:10px;
+    border-radius: 20px;
+}
+.navbar .menu li a{
+	color:rgb(255, 255, 255);
+	font-size: 25px;
+	font-weight: 600;
+	transition: 0.1s ease;
+}
+.navbar.sticky .menu li a:hover{
+	color: grey;
+}
+.menu-btn{
+	color: black;
+	font-size: 20px;
+	cursor: pointer;
+	display: none;
+}
+.title{
+    display: flex;
+    background-image:url(1.jpg);
+    height: 600px;
+    background-size: 100% 100%;
+	background-position:center;
+	background-repeat:no-repeat;
+	min-height: 500px;
+	font-family: 'Ubuntu',sans-serif;
+}
+.title .title-box1{
+    float: left ;
+    display: flex;
+    box-sizing: content-box;
+    align-items: center;
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgb(43, 42, 42); /* Black background with 0.5 opacity */
+    border-radius: 20px;
+    width: 600px;
+    height: 220px;
+    margin-top: 100px;
+    padding:10px;
+}
+.title .title-content{
+    align-items: center;
+}
+.title .title-content h2{
+    font-weight:600;
+    margin-bottom:30px;
+    color: white;
+    font-size: 25px;
+}
+.title .title-content p{
+    color: white;
+    font-family: 'Ubuntu',sans-serif;
+    font-size: 18px;
+
+}
+.main{
+    display: flex;
+}
+.items{
+    width:80%;
+    background-color: rgb(141, 137, 137);
+    padding:20px 0px;
+}
+.items h2{
+    text-align: center;
+    font-family: 'Ubuntu',sans-serif;
+    font-size: 45px;
+    font-weight: 900;
+    color: white;
+    text-decoration: underline rgb(156, 0, 0);
+}
+.items .max-width .card{
+    display: inline-block;
+	width: calc(24% - 30px);
+	background-color: white;
+	border-radius:6px;
+	padding: 20px 20px 15px 20px;
+    margin:20px;
+	cursor: pointer;
+    margin-top: 50px;
+    border-color:#E3E8E8;
+    border-style: solid;
+} 
+.items .max-width .card .box{
+    text-align: center;
+    font-family: 'Ubuntu',sans-serif;
+}
+.items .max-width .card .box .text{
+    color: black;
+	font-size: 18px;
+	font-weight: 600;
+	margin:10px 0px 7px 0px;
+    font-family: 'Ubuntu',sans-serif;
+}
+.items .max-width .card .box h3{
+    margin:5px 0px;
+}
+.items .max-width .card .box button{
+    margin:10px 0px;
+    width:100px;
+    height:30px;
+    background-color:rgb(156, 0, 0);
+    border-radius: 30px;
+    border: 2px solid rgb(156, 0, 0) ;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+}
+.items .max-width .card .box button{
+    color: white;
+}
+
+.items .max-width .card .box button:hover{
+    background-color: white;
+    color:rgb(156, 0, 0);
+}
+.cart{
+    background-color:rgb(118, 131, 141);
+    width: 50vh;
+    height: 100%;
+}
+.cart h1{
+        text-align: center;
+        font-size: 30px;
+        font-weight: 800;
+        font-family: 'Ubuntu',sans-serif;
+        color: white;
+        text-decoration: underline rgb(156, 0, 0);
+}
+.cart .outer{
+    padding: 20px;
+    width: 100%;
+    background-color: rgb(118, 131, 141);
+}
+.cart .outer div{
+    font-size: 18px;
+    color: white;
+}
+.cart .outer .checkout{
+    width:100px;
+    padding:7px;
+    margin: 10px 0px;
+    font-size: 16px;
+}
+.cart .outer button{
+    margin: 0px 3px;
+    background-color: rgb(145, 3, 3);
+    width: 30px;
+    border: 2px solid rgb(145, 3, 3);
+    border-radius: 10px;
+    color: white;
+    font-weight: 600;
+}
+.cart .outer button:hover{
+    background-color: transparent;
+    color:rgb(145, 3, 3);
+}
+.cart .outer .block{
+    margin:20px 0px;
+}
+.cart .outer .block ul li{
+    color: white;
+    font-size: 20px;
+    list-style: none;
+    margin:10px 0px;
+}
+.cart .outer .block{
+    color: white;
+    font-size: 20px;
+}
